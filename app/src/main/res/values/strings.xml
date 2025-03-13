@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android Lab 4</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tvNewGame">New Game</string>
+    <string name="tvAbout">About</string>
+    <string name="tvOptions">Options</string>
+    <string name="tvContinue">Continue</string>
+    <string name="emotes_title">Emotes</string>
+</resources>
