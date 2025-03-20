@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Лабораторна робота 4</string>
-    <string name="title_activity_main2">MainActivity2</string>
     <string name="tvImages">Зображення</string>
     <string name="tvAbout">Про автора</string>
     <string name="tvOmens">Прикмети</string>
@@ -9,10 +8,4 @@
     <string name="tvEmotes">Зображення емоцій</string>
     <string name="tvQuotes">Цитати</string>
     <string name="tvSeaImages">Зображення моря</string>
-    <string name="joke1">Гугл – це напевно жінка: ніколи не дасть тобі закінчити фразу і запропонує свій варіант продовження</string>
-    <string name="joke2">Не хочу хвалитись, але я зібрав пазли за 1 день. Хоча, на коробці написано “3–4 роки”.</string>
-    <string name="joke3">Що роблять наші люди, коли їм вимикають світло? Праааавильно!  Біжать подивитися, кому ще не вимкнули…</string>
-    <string name="omen1">Побачити веселку - до щастя</string>
-    <string name="quote2">\"Саме наш вибір показує, ким ми є насправді, набагато більше, ніж наші здібності\". - Джоан Роулінг</string>
-    <string name="quote3">\"Життя насправді просте, але ми наполягаємо на тому, щоб його ускладнити\". - Конфуцій</string>
 </resources>

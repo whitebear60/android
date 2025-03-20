@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Android Lab 4</string>
-    <string name="title_activity_main2">MainActivity2</string>
     <string name="tvImages">Images</string>
     <string name="tvAbout">About</string>
     <string name="tvOmens">Omens</string>
@@ -8,13 +7,13 @@
     <string name="tvEmotes">Emotes</string>
     <string name="tvQuotes">Quotes</string>
     <string name="tvSeaImages">Sea Images</string>
-    <string name="joke1">Гугл – це напевно жінка: ніколи не дасть тобі закінчити фразу і запропонує свій варіант продовження</string>
-    <string name="joke2">Не хочу хвалитись, але я зібрав пазли за 1 день. Хоча, на коробці написано “3–4 роки”.</string>
-    <string name="joke3">Що роблять наші люди, коли їм вимикають світло? Праааавильно!  Біжать подивитися, кому ще не вимкнули…</string>
-    <string name="omen1">Побачити веселку - до щастя</string>
-    <string name="omen2">Якщо зранку впустив ложку - чекай на гостей</string>
-    <string name="omen3">Зустріти чорного кота на дорозі - до невдачі</string>
-    <string name="quote1">\"Щоб почати, треба перестати говорити і почати робити\". - Волт Дісней</string>
-    <string name="quote2">\"Саме наш вибір показує, ким ми є насправді, набагато більше, ніж наші здібності\". - Джоан Роулінг</string>
-    <string name="quote3">\"Життя насправді просте, але ми наполягаємо на тому, щоб його ускладнити\". - Конфуцій</string>
+    <string name="joke1" translatable="false">Гугл – це напевно жінка: ніколи не дасть тобі закінчити фразу і запропонує свій варіант продовження</string>
+    <string name="joke2" translatable="false">Не хочу хвалитись, але я зібрав пазли за 1 день. Хоча, на коробці написано “3–4 роки”.</string>
+    <string name="joke3" translatable="false">Що роблять наші люди, коли їм вимикають світло? Праааавильно!  Біжать подивитися, кому ще не вимкнули…</string>
+    <string name="omen1" translatable="false">Побачити веселку - до щастя</string>
+    <string name="omen2" translatable="false">Якщо зранку впустив ложку - чекай на гостей</string>
+    <string name="omen3" translatable="false">Зустріти чорного кота на дорозі - до невдачі</string>
+    <string name="quote2" translatable="false">\"Саме наш вибір показує, ким ми є насправді, набагато більше, ніж наші здібності\". - Джоан Роулінг</string>
+    <string name="quote3" translatable="false">\"Життя насправді просте, але ми наполягаємо на тому, щоб його ускладнити\". - Конфуцій</string>
+    <string name="quote1" translatable="false">\"Щоб почати, треба перестати говорити і почати робити\". - Волт Дісней</string>
 </resources>
