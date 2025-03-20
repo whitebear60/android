@@ -7,4 +7,51 @@
     android:layout_height="match_parent"
     tools:context=".OmensActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tvOmen1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/tvOmens"
+        android:id="@+id/tvOmensTitle"
+        />
+
+    <TextView
+        android:id="@+id/tvOmen1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvOmensTitle"
+        app:layout_constraintBottom_toTopOf="@id/tvOmen2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:theme="@style/aboutText"
+        android:text="@string/omen1"
+        />
+
+    <TextView
+        android:id="@+id/tvOmen2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvOmen1"
+        app:layout_constraintBottom_toTopOf="@id/tvOmen3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:theme="@style/aboutText"
+        android:text="@string/omen2"
+        />
+
+    <TextView
+        android:id="@+id/tvOmen3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvOmen3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:theme="@style/aboutText"
+        android:text="@string/omen3"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

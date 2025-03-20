@@ -14,7 +14,7 @@
         app:layout_constraintBottom_toTopOf="@id/ivEmote1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="@string/emotes_title"
+        android:text="@string/tvEmotes"
         android:id="@+id/tvEmotesTitle"
         />
 

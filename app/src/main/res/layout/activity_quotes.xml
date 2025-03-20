@@ -7,4 +7,51 @@
     android:layout_height="match_parent"
     tools:context=".QuotesActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tvQuote1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/tvQuotes"
+        android:id="@+id/tvQuotes"
+        />
+
+    <TextView
+        android:id="@+id/tvQuote1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvQuotes"
+        app:layout_constraintBottom_toTopOf="@id/tvQuote2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:theme="@style/aboutText"
+        android:text="@string/quote1"
+        />
+
+    <TextView
+        android:id="@+id/tvQuote2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvQuote1"
+        app:layout_constraintBottom_toTopOf="@id/tvQuote3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:theme="@style/aboutText"
+        android:text="@string/quote2"
+        />
+
+    <TextView
+        android:id="@+id/tvQuote3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvQuote2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:theme="@style/aboutText"
+        android:text="@string/quote3"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

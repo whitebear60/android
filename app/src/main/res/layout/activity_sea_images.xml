@@ -7,4 +7,48 @@
     android:layout_height="match_parent"
     tools:context=".SeaImagesActivity">
 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/ivImage1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/tvSeaImages"
+        android:id="@+id/tvImagesTitle"
+        />
+
+    <ImageView
+        android:id="@+id/ivImage1"
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+        app:layout_constraintTop_toBottomOf="@id/tvImagesTitle"
+        app:layout_constraintBottom_toTopOf="@id/ivImage2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/sea_image"
+        />
+
+    <ImageView
+        android:id="@+id/ivImage2"
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+        app:layout_constraintTop_toBottomOf="@id/ivImage1"
+        app:layout_constraintBottom_toTopOf="@id/ivImage3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/sea_image1"
+        />
+
+    <ImageView
+        android:id="@+id/ivImage3"
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+        app:layout_constraintTop_toBottomOf="@id/ivImage2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/sea_image2"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,20 +1,17 @@
 package ua.whitebear60.android.androidlab4
 
 import android.os.Bundle
+import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import ua.whitebear60.android.androidlab4.databinding.ActivityEmotesBinding
 
-class EmotesActivity : AppCompatActivity() {
+class EmotesActivity : ComponentActivity() {
+    private lateinit var binding: ActivityEmotesBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding = ActivityEmotesBinding.inflate(layoutInflater)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_emotes)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
+        val view = binding.root
+        setContentView(view)
     }
 }
